@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belépés</title>
+    <link rel="icon" type="image/png" href="odallogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>It-ebolt</h1>
+            <nav>
+                <ul>
+                    <li><a href="belepes.html">Belépés</a></li>
+                    <li><a href="#kedvencek">Kedvencek</a></li>
+                    <li><a href="#kosar">Kosár</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <nav class="product-menu">
+        <nav>
+            <ul>
+                <li class="active"><a href="szamitogepek.html">Számítógépek</a></li>
+                <li><a href="laptopok.html">Laptopok</a></li>
+                <li><a href="periferiak.html">Perifériák</a></li>
+                <li><a href="szoftverek.html">Szoftverek</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <div class="login">
+        <form action="bejelentkezes.php" method="post">
+            <div class="input-container">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+                <label for="felhasznalo">Felhasználónév:</label>
+                <input type="text" id="felhasznalo" name="felhasznalo" required>
+            </div>
+            <div class="input-container">
+                <label for="jelszo">Jelszó:</label>
+                <input type="password" id="jelszo" name="jelszo" required>
+            </div>
+            <button type="submit">Bejelentkezés</button>
+        </form>
+    </div>
+
+<section class="content">
+    <!-- Oldal tartalma -->
+</section>
+<footer>
+    <p>&copy; IT-ebolt, minden jog fenntartva!</p>
+</footer>
+</body>
+</html>
